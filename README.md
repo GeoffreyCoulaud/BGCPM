@@ -2,12 +2,28 @@
 
 Some useful skills that I use everyday to speed-up Claude Code
 
+## Manual installation
+
+```sh
+git clone https://github.com/GeoffreyCoulaud/claude-plugin.git
+cp -lr skills ~/.claude
+```
+
 ## Skill - Pick my brain
 
-- **Why does it exist?** - It's hard to know what you know. It's hard to know
-  what agents know. Humans have conversations to harmonize knowledge... But it's
-  tiring and hard to have the right conversations, in the right way. Agents
-  don't get tired.
-- **How does it works?** - A series of single-focus questions, posed by a
-  relentless agent that won't accept ambiguity.
-- **When to use it?** - Before a creating a Claude plan
+- **The problem** - You know things the agent doesn't. Without a structured
+  conversation, plans come out wrong and need 3-5 rounds of back-and-forth —
+  sometimes a full restart with a new frame. It's hard to know what to tell the
+  agent upfront, and agents won't ask on their own.
+- **The fix** - A relentless, one-question-at-a-time interview where the agent
+  extracts what it needs from you. It won't accept vague answers or move on with
+  gaps. The result is a knowledge brief that feeds directly into planning.
+- **The outcome** - Plans that are good on the first try, no back-and-forth.
+- **When to use it** - Before writing anything substantial: plans, features,
+  docs, processes, guidelines. Replaces `superpowers:brainstorming` — same role,
+  better results.
+
+> **Author's workflow:** Start with a short context + brief, invoke
+> pick-my-brain, then have the conversation using voice transcription with
+> [Handy](https://handy.computer). Talking is faster than typing, and the agent
+> handles the structure.
