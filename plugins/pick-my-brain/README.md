@@ -1,6 +1,6 @@
 # Pick my brain
 
-Get plans right on the first try — the agent interviews you one question at a
+_Get plans right on the first try_. The agent interviews you one question at a
 time and won't accept vague answers
 
 ## Installation
